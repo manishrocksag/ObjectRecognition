@@ -1,0 +1,1519 @@
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.3.6)  13 APR 2014 10:46
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**cvpr.sty
+(./cvpr.sty
+LaTeX2e <2011/06/27>
+Babel <3.9f> and hyphenation patterns for 3 languages loaded.
+
+! LaTeX Error: \usepackage before \documentclass.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.42 \usepackage{
+                 eso-pic}
+\usepackage may only appear in the document preamble, i.e.,
+between \documentclass and \begin{document}.
+
+
+! LaTeX Error: \usepackage before \documentclass.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.43 \usepackage{
+                 xspace}
+\usepackage may only appear in the document preamble, i.e.,
+between \documentclass and \begin{document}.
+
+CVPR 8.5 x 11-Inch Proceedings Style `cvpr.sty'.
+
+! LaTeX Error: Command \@ already defined.
+               Or name \end... illegal, see p.192 of the manual.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.127 \newlength{\@ctmp}
+                        
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.127 \newlength{\@ctmp}
+                        
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no t in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no p in font nullfont!
+\@=\skip41
+Missing character: There is no c in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no p in font nullfont!
+
+! LaTeX Error: Command \@ already defined.
+               Or name \end... illegal, see p.192 of the manual.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.128 \newlength{\@figindent}
+                             
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+Missing character: There is no i in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
+\@=\skip42
+Missing character: There is no f in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
+! Missing number, treated as zero.
+<to be read again> 
+                   f
+l.129 \setlength{\@figindent}{1pc}
+                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   f
+l.129 \setlength{\@figindent}{1pc}
+                                  
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+Missing character: There is no f in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no c in font nullfont!
+
+Overfull \hbox (12.0pt too wide) in paragraph at lines 127--130
+[]
+ []
+
+\cvprrulerbox=\box26
+\cvprrulercount=\count79
+\cvprruleroffset=\dimen102
+\cv@lineheight=\dimen103
+\cv@boxheight=\dimen104
+\cv@tmpbox=\box27
+\cv@refno=\count80
+\cv@tot=\count81
+\cv@tmpc@=\count82
+\cv@tmpc=\count83
+! Undefined control sequence.
+l.195 \AddToShipoutPicture
+                          {%
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.202   \color
+              [rgb]{.5,.5,1}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.202   \color[
+               rgb]{.5,.5,1}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no [ in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no ] in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no 1 in font nullfont!
+! Undefined control sequence.
+l.203   \AtTextUpperLeft
+                        {%
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> \LenToUnit 
+                      {-\cvprruleroffset }
+l.205       \cvprruler{\cvprrulercount}}
+                                        
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   {
+l.205       \cvprruler{\cvprrulercount}}
+                                        
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   {
+l.205       \cvprruler{\cvprrulercount}}
+                                        
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! A <box> was supposed to be here.
+<to be read again> 
+                   {
+l.205       \cvprruler{\cvprrulercount}}
+                                        
+I was expecting to see \hbox or \vbox or \copy or \box or
+something like that. So you might find something missing in
+your output. But keep trying; you can fix this later.
+
+Missing character: There is no - in font nullfont!
+! Missing number, treated as zero.
+<to be read again> 
+                   }
+l.205       \cvprruler{\cvprrulercount}}
+                                        
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   }
+l.205       \cvprruler{\cvprrulercount}}
+                                        
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \hbox 
+l.205       \cvprruler{\cvprrulercount}}
+                                        
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \hbox 
+l.205       \cvprruler{\cvprrulercount}}
+                                        
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Undefined control sequence.
+<argument> \LenToUnit 
+                      {-35pt}
+l.205       \cvprruler{\cvprrulercount}}
+                                        
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   {
+l.205       \cvprruler{\cvprrulercount}}
+                                        
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   {
+l.205       \cvprruler{\cvprrulercount}}
+                                        
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+Missing character: There is no - in font nullfont!
+Missing character: There is no 3 in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no t in font nullfont!
+! Missing number, treated as zero.
+<to be read again> 
+                   \begingroup 
+l.205       \cvprruler{\cvprrulercount}}
+                                        
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \begingroup 
+l.205       \cvprruler{\cvprrulercount}}
+                                        
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+
+Overfull \hbox (13.344pt too wide) detected at line 205
+ \cvprtenhv 000
+ []
+
+
+Overfull \hbox (13.344pt too wide) detected at line 205
+ \cvprtenhv 001
+ []
+
+
+Overfull \hbox (13.344pt too wide) detected at line 205
+ \cvprtenhv 002
+ []
+
+
+Overfull \hbox (13.344pt too wide) detected at line 205
+ \cvprtenhv 003
+ []
+
+
+Overfull \hbox (13.344pt too wide) detected at line 205
+ \cvprtenhv 004
+ []
+
+
+Overfull \hbox (13.344pt too wide) detected at line 205
+ \cvprtenhv 005
+ []
+
+
+Overfull \hbox (13.344pt too wide) detected at line 205
+ \cvprtenhv 006
+ []
+
+
+Overfull \hbox (13.344pt too wide) detected at line 205
+ \cvprtenhv 007
+ []
+
+
+Overfull \hbox (13.344pt too wide) detected at line 205
+ \cvprtenhv 008
+ []
+
+
+Overfull \hbox (13.344pt too wide) detected at line 205
+ \cvprtenhv 009
+ []
+
+
+Overfull \hbox (13.344pt too wide) detected at line 205
+ \cvprtenhv 010
+ []
+
+
+Overfull \hbox (13.344pt too wide) detected at line 205
+ \cvprtenhv 011
+ []
+
+
+Overfull \hbox (13.344pt too wide) detected at line 205
+ \cvprtenhv 012
+ []
+
+
+Overfull \hbox (13.344pt too wide) detected at line 205
+ \cvprtenhv 013
+ []
+
+
+Overfull \hbox (13.344pt too wide) detected at line 205
+ \cvprtenhv 014
+ []
+
+
+Overfull \hbox (13.344pt too wide) detected at line 205
+ \cvprtenhv 015
+ []
+
+
+Overfull \hbox (13.344pt too wide) detected at line 205
+ \cvprtenhv 016
+ []
+
+
+Overfull \hbox (13.344pt too wide) detected at line 205
+ \cvprtenhv 017
+ []
+
+
+Overfull \hbox (13.344pt too wide) detected at line 205
+ \cvprtenhv 018
+ []
+
+
+Overfull \hbox (13.344pt too wide) detected at line 205
+ \cvprtenhv 019
+ []
+
+
+Overfull \hbox (13.344pt too wide) detected at line 205
+ \cvprtenhv 020
+ []
+
+
+Overfull \hbox (13.344pt too wide) detected at line 205
+ \cvprtenhv 021
+ []
+
+
+Overfull \hbox (13.344pt too wide) detected at line 205
+ \cvprtenhv 022
+ []
+
+
+Overfull \hbox (13.344pt too wide) detected at line 205
+ \cvprtenhv 023
+ []
+
+
+Overfull \hbox (13.344pt too wide) detected at line 205
+ \cvprtenhv 024
+ []
+
+
+Overfull \hbox (13.344pt too wide) detected at line 205
+ \cvprtenhv 025
+ []
+
+
+Overfull \hbox (13.344pt too wide) detected at line 205
+ \cvprtenhv 026
+ []
+
+
+Overfull \hbox (13.344pt too wide) detected at line 205
+ \cvprtenhv 027
+ []
+
+
+Overfull \hbox (13.344pt too wide) detected at line 205
+ \cvprtenhv 028
+ []
+
+
+Overfull \hbox (13.344pt too wide) detected at line 205
+ \cvprtenhv 029
+ []
+
+
+Overfull \hbox (13.344pt too wide) detected at line 205
+ \cvprtenhv 030
+ []
+
+
+Overfull \hbox (13.344pt too wide) detected at line 205
+ \cvprtenhv 031
+ []
+
+
+Overfull \hbox (13.344pt too wide) detected at line 205
+ \cvprtenhv 032
+ []
+
+
+Overfull \hbox (13.344pt too wide) detected at line 205
+ \cvprtenhv 033
+ []
+
+
+Overfull \hbox (13.344pt too wide) detected at line 205
+ \cvprtenhv 034
+ []
+
+
+Overfull \hbox (13.344pt too wide) detected at line 205
+ \cvprtenhv 035
+ []
+
+
+Overfull \hbox (13.344pt too wide) detected at line 205
+ \cvprtenhv 036
+ []
+
+
+Overfull \hbox (13.344pt too wide) detected at line 205
+ \cvprtenhv 037
+ []
+
+
+Overfull \hbox (13.344pt too wide) detected at line 205
+ \cvprtenhv 038
+ []
+
+
+Overfull \hbox (13.344pt too wide) detected at line 205
+ \cvprtenhv 039
+ []
+
+
+Overfull \hbox (13.344pt too wide) detected at line 205
+ \cvprtenhv 040
+ []
+
+
+Overfull \hbox (13.344pt too wide) detected at line 205
+ \cvprtenhv 041
+ []
+
+
+Overfull \hbox (13.344pt too wide) detected at line 205
+ \cvprtenhv 042
+ []
+
+
+Overfull \hbox (13.344pt too wide) detected at line 205
+ \cvprtenhv 043
+ []
+
+
+Overfull \hbox (13.344pt too wide) detected at line 205
+ \cvprtenhv 044
+ []
+
+
+Overfull \hbox (13.344pt too wide) detected at line 205
+ \cvprtenhv 045
+ []
+
+
+Overfull \hbox (13.344pt too wide) detected at line 205
+ \cvprtenhv 046
+ []
+
+
+Overfull \hbox (13.344pt too wide) detected at line 205
+ \cvprtenhv 047
+ []
+
+
+Overfull \hbox (13.344pt too wide) detected at line 205
+ \cvprtenhv 048
+ []
+
+
+Overfull \hbox (13.344pt too wide) detected at line 205
+ \cvprtenhv 049
+ []
+
+
+Overfull \hbox (13.344pt too wide) detected at line 205
+ \cvprtenhv 050
+ []
+
+
+Overfull \hbox (13.344pt too wide) detected at line 205
+ \cvprtenhv 051
+ []
+
+
+Overfull \hbox (13.344pt too wide) detected at line 205
+ \cvprtenhv 052
+ []
+
+
+Overfull \hbox (13.344pt too wide) detected at line 205
+ \cvprtenhv 053
+ []
+
+! Undefined control sequence.
+<argument> \LenToUnit 
+                      {-\cvprruleroffset }
+l.207       \cvprruler{\cvprrulercount}}
+                                        
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   {
+l.207       \cvprruler{\cvprrulercount}}
+                                        
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   {
+l.207       \cvprruler{\cvprrulercount}}
+                                        
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! A <box> was supposed to be here.
+<to be read again> 
+                   {
+l.207       \cvprruler{\cvprrulercount}}
+                                        
+I was expecting to see \hbox or \vbox or \copy or \box or
+something like that. So you might find something missing in
+your output. But keep trying; you can fix this later.
+
+Missing character: There is no - in font nullfont!
+! Missing number, treated as zero.
+<to be read again> 
+                   }
+l.207       \cvprruler{\cvprrulercount}}
+                                        
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   }
+l.207       \cvprruler{\cvprrulercount}}
+                                        
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \hbox 
+l.207       \cvprruler{\cvprrulercount}}
+                                        
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \hbox 
+l.207       \cvprruler{\cvprrulercount}}
+                                        
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Undefined control sequence.
+<argument> \LenToUnit 
+                      {\textwidth \kern 30pt}
+l.207       \cvprruler{\cvprrulercount}}
+                                        
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   {
+l.207       \cvprruler{\cvprrulercount}}
+                                        
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   {
+l.207       \cvprruler{\cvprrulercount}}
+                                        
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \kern 
+l.207       \cvprruler{\cvprrulercount}}
+                                        
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \kern 
+l.207       \cvprruler{\cvprrulercount}}
+                                        
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \begingroup 
+l.207       \cvprruler{\cvprrulercount}}
+                                        
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \begingroup 
+l.207       \cvprruler{\cvprrulercount}}
+                                        
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+
+Overfull \hbox (13.344pt too wide) detected at line 207
+ \cvprtenhv 054
+ []
+
+
+Overfull \hbox (13.344pt too wide) detected at line 207
+ \cvprtenhv 055
+ []
+
+
+Overfull \hbox (13.344pt too wide) detected at line 207
+ \cvprtenhv 056
+ []
+
+
+Overfull \hbox (13.344pt too wide) detected at line 207
+ \cvprtenhv 057
+ []
+
+
+Overfull \hbox (13.344pt too wide) detected at line 207
+ \cvprtenhv 058
+ []
+
+
+Overfull \hbox (13.344pt too wide) detected at line 207
+ \cvprtenhv 059
+ []
+
+
+Overfull \hbox (13.344pt too wide) detected at line 207
+ \cvprtenhv 060
+ []
+
+
+Overfull \hbox (13.344pt too wide) detected at line 207
+ \cvprtenhv 061
+ []
+
+
+Overfull \hbox (13.344pt too wide) detected at line 207
+ \cvprtenhv 062
+ []
+
+
+Overfull \hbox (13.344pt too wide) detected at line 207
+ \cvprtenhv 063
+ []
+
+
+Overfull \hbox (13.344pt too wide) detected at line 207
+ \cvprtenhv 064
+ []
+
+
+Overfull \hbox (13.344pt too wide) detected at line 207
+ \cvprtenhv 065
+ []
+
+
+Overfull \hbox (13.344pt too wide) detected at line 207
+ \cvprtenhv 066
+ []
+
+
+Overfull \hbox (13.344pt too wide) detected at line 207
+ \cvprtenhv 067
+ []
+
+
+Overfull \hbox (13.344pt too wide) detected at line 207
+ \cvprtenhv 068
+ []
+
+
+Overfull \hbox (13.344pt too wide) detected at line 207
+ \cvprtenhv 069
+ []
+
+
+Overfull \hbox (13.344pt too wide) detected at line 207
+ \cvprtenhv 070
+ []
+
+
+Overfull \hbox (13.344pt too wide) detected at line 207
+ \cvprtenhv 071
+ []
+
+
+Overfull \hbox (13.344pt too wide) detected at line 207
+ \cvprtenhv 072
+ []
+
+
+Overfull \hbox (13.344pt too wide) detected at line 207
+ \cvprtenhv 073
+ []
+
+
+Overfull \hbox (13.344pt too wide) detected at line 207
+ \cvprtenhv 074
+ []
+
+
+Overfull \hbox (13.344pt too wide) detected at line 207
+ \cvprtenhv 075
+ []
+
+
+Overfull \hbox (13.344pt too wide) detected at line 207
+ \cvprtenhv 076
+ []
+
+
+Overfull \hbox (13.344pt too wide) detected at line 207
+ \cvprtenhv 077
+ []
+
+
+Overfull \hbox (13.344pt too wide) detected at line 207
+ \cvprtenhv 078
+ []
+
+
+Overfull \hbox (13.344pt too wide) detected at line 207
+ \cvprtenhv 079
+ []
+
+
+Overfull \hbox (13.344pt too wide) detected at line 207
+ \cvprtenhv 080
+ []
+
+
+Overfull \hbox (13.344pt too wide) detected at line 207
+ \cvprtenhv 081
+ []
+
+
+Overfull \hbox (13.344pt too wide) detected at line 207
+ \cvprtenhv 082
+ []
+
+
+Overfull \hbox (13.344pt too wide) detected at line 207
+ \cvprtenhv 083
+ []
+
+
+Overfull \hbox (13.344pt too wide) detected at line 207
+ \cvprtenhv 084
+ []
+
+
+Overfull \hbox (13.344pt too wide) detected at line 207
+ \cvprtenhv 085
+ []
+
+
+Overfull \hbox (13.344pt too wide) detected at line 207
+ \cvprtenhv 086
+ []
+
+
+Overfull \hbox (13.344pt too wide) detected at line 207
+ \cvprtenhv 087
+ []
+
+
+Overfull \hbox (13.344pt too wide) detected at line 207
+ \cvprtenhv 088
+ []
+
+
+Overfull \hbox (13.344pt too wide) detected at line 207
+ \cvprtenhv 089
+ []
+
+
+Overfull \hbox (13.344pt too wide) detected at line 207
+ \cvprtenhv 090
+ []
+
+
+Overfull \hbox (13.344pt too wide) detected at line 207
+ \cvprtenhv 091
+ []
+
+
+Overfull \hbox (13.344pt too wide) detected at line 207
+ \cvprtenhv 092
+ []
+
+
+Overfull \hbox (13.344pt too wide) detected at line 207
+ \cvprtenhv 093
+ []
+
+
+Overfull \hbox (13.344pt too wide) detected at line 207
+ \cvprtenhv 094
+ []
+
+
+Overfull \hbox (13.344pt too wide) detected at line 207
+ \cvprtenhv 095
+ []
+
+
+Overfull \hbox (13.344pt too wide) detected at line 207
+ \cvprtenhv 096
+ []
+
+
+Overfull \hbox (13.344pt too wide) detected at line 207
+ \cvprtenhv 097
+ []
+
+
+Overfull \hbox (13.344pt too wide) detected at line 207
+ \cvprtenhv 098
+ []
+
+
+Overfull \hbox (13.344pt too wide) detected at line 207
+ \cvprtenhv 099
+ []
+
+
+Overfull \hbox (13.344pt too wide) detected at line 207
+ \cvprtenhv 100
+ []
+
+
+Overfull \hbox (13.344pt too wide) detected at line 207
+ \cvprtenhv 101
+ []
+
+
+Overfull \hbox (13.344pt too wide) detected at line 207
+ \cvprtenhv 102
+ []
+
+
+Overfull \hbox (13.344pt too wide) detected at line 207
+ \cvprtenhv 103
+ []
+
+
+Overfull \hbox (13.344pt too wide) detected at line 207
+ \cvprtenhv 104
+ []
+
+
+Overfull \hbox (13.344pt too wide) detected at line 207
+ \cvprtenhv 105
+ []
+
+
+Overfull \hbox (13.344pt too wide) detected at line 207
+ \cvprtenhv 106
+ []
+
+
+Overfull \hbox (13.344pt too wide) detected at line 207
+ \cvprtenhv 107
+ []
+
+! Undefined control sequence.
+l.210   \AtTextUpperLeft
+                        {%paperID in corners
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> \LenToUnit 
+                      {45pt}
+l.211 ...\LenToUnit{-65pt},\LenToUnit{45pt}){\pid}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   {
+l.211 ...\LenToUnit{-65pt},\LenToUnit{45pt}){\pid}
+                                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   {
+l.211 ...\LenToUnit{-65pt},\LenToUnit{45pt}){\pid}
+                                                  
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! A <box> was supposed to be here.
+<to be read again> 
+                   {
+l.211 ...\LenToUnit{-65pt},\LenToUnit{45pt}){\pid}
+                                                  
+I was expecting to see \hbox or \vbox or \copy or \box or
+something like that. So you might find something missing in
+your output. But keep trying; you can fix this later.
+
+Missing character: There is no 4 in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no t in font nullfont!
+! Missing number, treated as zero.
+<to be read again> 
+                   \hbox 
+l.211 ...\LenToUnit{-65pt},\LenToUnit{45pt}){\pid}
+                                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \hbox 
+l.211 ...\LenToUnit{-65pt},\LenToUnit{45pt}){\pid}
+                                                  
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Undefined control sequence.
+<argument> \LenToUnit 
+                      {-65pt}
+l.211 ...\LenToUnit{-65pt},\LenToUnit{45pt}){\pid}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   {
+l.211 ...\LenToUnit{-65pt},\LenToUnit{45pt}){\pid}
+                                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   {
+l.211 ...\LenToUnit{-65pt},\LenToUnit{45pt}){\pid}
+                                                  
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+Missing character: There is no - in font nullfont!
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no t in font nullfont!
+! Missing number, treated as zero.
+<to be read again> 
+                   \let 
+l.211 ...\LenToUnit{-65pt},\LenToUnit{45pt}){\pid}
+                                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \let 
+l.211 ...\LenToUnit{-65pt},\LenToUnit{45pt}){\pid}
+                                                  
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Undefined control sequence.
+<argument> ... \@parboxrestore \begin {center}\bf 
+                                                  \sf {\small CVPR}\\\#\cvpr...
+l.211 ...\LenToUnit{-65pt},\LenToUnit{45pt}){\pid}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> ...arboxrestore \begin {center}\bf \sf 
+                                                  {\small CVPR}\\\#\cvprPape...
+l.211 ...\LenToUnit{-65pt},\LenToUnit{45pt}){\pid}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> ...tore \begin {center}\bf \sf {\small 
+                                                  CVPR}\\\#\cvprPaperID \end...
+l.211 ...\LenToUnit{-65pt},\LenToUnit{45pt}){\pid}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no C in font nullfont!
+Missing character: There is no V in font nullfont!
+Missing character: There is no P in font nullfont!
+Missing character: There is no R in font nullfont!
+Missing character: There is no # in font nullfont!
+! Undefined control sequence.
+<argument> ...f \sf {\small CVPR}\\\#\cvprPaperID 
+                                                  \end {center}\@@par 
+l.211 ...\LenToUnit{-65pt},\LenToUnit{45pt}){\pid}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 211.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 211.
+! Undefined control sequence.
+<argument> \LenToUnit 
+                      {45pt}
+l.212 ...xtwidth\kern-8pt},\LenToUnit{45pt}){\pid}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   {
+l.212 ...xtwidth\kern-8pt},\LenToUnit{45pt}){\pid}
+                                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   {
+l.212 ...xtwidth\kern-8pt},\LenToUnit{45pt}){\pid}
+                                                  
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! A <box> was supposed to be here.
+<to be read again> 
+                   {
+l.212 ...xtwidth\kern-8pt},\LenToUnit{45pt}){\pid}
+                                                  
+I was expecting to see \hbox or \vbox or \copy or \box or
+something like that. So you might find something missing in
+your output. But keep trying; you can fix this later.
+
+Missing character: There is no 4 in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no t in font nullfont!
+! Missing number, treated as zero.
+<to be read again> 
+                   \hbox 
+l.212 ...xtwidth\kern-8pt},\LenToUnit{45pt}){\pid}
+                                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \hbox 
+l.212 ...xtwidth\kern-8pt},\LenToUnit{45pt}){\pid}
+                                                  
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Undefined control sequence.
+<argument> \LenToUnit 
+                      {\textwidth \kern -8pt}
+l.212 ...xtwidth\kern-8pt},\LenToUnit{45pt}){\pid}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   {
+l.212 ...xtwidth\kern-8pt},\LenToUnit{45pt}){\pid}
+                                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   {
+l.212 ...xtwidth\kern-8pt},\LenToUnit{45pt}){\pid}
+                                                  
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \kern 
+l.212 ...xtwidth\kern-8pt},\LenToUnit{45pt}){\pid}
+                                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \kern 
+l.212 ...xtwidth\kern-8pt},\LenToUnit{45pt}){\pid}
+                                                  
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \let 
+l.212 ...xtwidth\kern-8pt},\LenToUnit{45pt}){\pid}
+                                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \let 
+l.212 ...xtwidth\kern-8pt},\LenToUnit{45pt}){\pid}
+                                                  
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Undefined control sequence.
+<argument> ... \@parboxrestore \begin {center}\bf 
+                                                  \sf {\small CVPR}\\\#\cvpr...
+l.212 ...xtwidth\kern-8pt},\LenToUnit{45pt}){\pid}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> ...arboxrestore \begin {center}\bf \sf 
+                                                  {\small CVPR}\\\#\cvprPape...
+l.212 ...xtwidth\kern-8pt},\LenToUnit{45pt}){\pid}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> ...tore \begin {center}\bf \sf {\small 
+                                                  CVPR}\\\#\cvprPaperID \end...
+l.212 ...xtwidth\kern-8pt},\LenToUnit{45pt}){\pid}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no C in font nullfont!
+Missing character: There is no V in font nullfont!
+Missing character: There is no P in font nullfont!
+Missing character: There is no R in font nullfont!
+Missing character: There is no # in font nullfont!
+! Undefined control sequence.
+<argument> ...f \sf {\small CVPR}\\\#\cvprPaperID 
+                                                  \end {center}\@@par 
+l.212 ...xtwidth\kern-8pt},\LenToUnit{45pt}){\pid}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.214   \AtTextUpperLeft
+                        {%confidential
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> \LenToUnit 
+                      {1cm}
+l.216 ...ENTIAL REVIEW COPY.  DO NOT DISTRIBUTE.}}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   {
+l.216 ...ENTIAL REVIEW COPY.  DO NOT DISTRIBUTE.}}
+                                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   {
+l.216 ...ENTIAL REVIEW COPY.  DO NOT DISTRIBUTE.}}
+                                                  
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! A <box> was supposed to be here.
+<to be read again> 
+                   {
+l.216 ...ENTIAL REVIEW COPY.  DO NOT DISTRIBUTE.}}
+                                                  
+I was expecting to see \hbox or \vbox or \copy or \box or
+something like that. So you might find something missing in
+your output. But keep trying; you can fix this later.
+
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no m in font nullfont!
+! Missing number, treated as zero.
+<to be read again> 
+                   \hbox 
+l.216 ...ENTIAL REVIEW COPY.  DO NOT DISTRIBUTE.}}
+                                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \hbox 
+l.216 ...ENTIAL REVIEW COPY.  DO NOT DISTRIBUTE.}}
+                                                  
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Undefined control sequence.
+<argument> ...CVPR 2010 Submission \#\cvprPaperID 
+                                                  . CONFIDENTIAL REVIEW COPY...
+l.216 ...ENTIAL REVIEW COPY.  DO NOT DISTRIBUTE.}}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (12.0pt too wide) in paragraph at lines 202--220
+[][][]
+ []
+
+)
+! Emergency stop.
+<*> cvpr.sty
+            
+*** (job aborted, no legal \end found)
+
+ 
+Here is how much of TeX's memory you used:
+ 64 strings out of 494996
+ 567 string characters out of 6180656
+ 49775 words of memory out of 5000000
+ 3371 multiletter control sequences out of 15000+600000
+ 4838 words of font info for 16 fonts, out of 8000000 for 9000
+ 34 hyphenation exceptions out of 8191
+ 20i,4n,20p,131b,108s stack positions out of 5000i,500n,10000p,200000b,80000s
+!  ==> Fatal error occurred, no output PDF file produced!
