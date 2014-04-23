@@ -6,11 +6,12 @@ load IMAGES;    % load images from disk
 
 patchsize = 8;  % we'll use 8x8 patches 
 numpatches = 10000;
+image_channels=3;
 %numpatches = 10;
 
 % Initialize patches with zeros.  Your code will fill in this matrix--one
 % column per patch, 10000 columns. 
-patches = zeros(patchsize*patchsize, numpatches);
+patches = zeros(patchsize*patchsize*image_channels, numpatches);
 
 %% ---------- YOUR CODE HERE --------------------------------------
 %  Instructions: Fill in the variable called "patches" using data 
