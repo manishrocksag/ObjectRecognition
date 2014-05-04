@@ -1,4 +1,4 @@
-%% CS294A/CS294W Linear Decoder Exercise
+x%% CS294A/CS294W Linear Decoder Exercise
 
 %  Instructions
 %  ------------

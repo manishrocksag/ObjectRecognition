@@ -116,7 +116,7 @@ addpath minFunc/
 
 options = struct;
 options.Method = 'lbfgs'; 
-options.maxIter = 10;
+options.maxIter = 200;
 options.display = 'on';
 
 [optTheta, cost] = minFunc( @(p) sparseAutoencoderLinearCost(p, ...

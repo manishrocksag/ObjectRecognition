@@ -5,7 +5,7 @@ function patches = sampleIMAGES(IMAGES)
 %load IMAGES;    % load images from disk 
 
 patchsize = 8;  % we'll use 8x8 patches 
-numpatches = 10000;
+numpatches = 1200;
 image_channels=3;
 %numpatches = 10;
 
@@ -29,7 +29,7 @@ patches = zeros(patchsize*patchsize*3,numpatches);
 imageHeight = size(IMAGES,1);
 imageWidth  = size(IMAGES,2)/3;
 for i = 1:numpatches
-	image_no = randi(14);
+	image_no = randi(60);
 	y1 = randi(imageHeight-patchsize+1);
 	y2 = y1 + (patchsize - 1);
 	x11 = randi(imageWidth-patchsize+1);

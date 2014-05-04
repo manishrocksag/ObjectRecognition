@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.4.23)  23 APR 2014 19:55
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.4.23)  1 MAY 2014 11:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -8,8 +8,8 @@ LaTeX2e <2011/06/27>
 Babel <3.9h> and hyphenation patterns for 5 languages loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
-(/usr/share/texlive/texmf-dist/tex/latex/base/size11.clo
-File: size11.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+(/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
 \c@section=\count80
@@ -156,6 +156,10 @@ Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 ))
+
+LaTeX Warning: Unused global option(s):
+    [18pt].
+
 (./projectReport.aux)
 \openout1 = `projectReport.aux'.
 
@@ -244,97 +248,90 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 51.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 51.
-LaTeX Font Info:    Try loading font information for U+msa on input line 51.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 25.
+
+<pic.jpg, id=1, 859.21pt x 241.90375pt>
+File: pic.jpg Graphic file (type jpg)
+ <use pic.jpg>
+Package pdftex.def Info: pic.jpg used on input line 33.
+(pdftex.def)             Requested size: 227.62204pt x 64.08203pt.
+LaTeX Font Info:    Try loading font information for U+msa on input line 41.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 51.
+LaTeX Font Info:    Try loading font information for U+msb on input line 41.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for OT1+pcr on input line 51.
-
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1pcr.fd
-File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
-)
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 54.
-
-Underfull \hbox (badness 3557) in paragraph at lines 61--62
-[]\OT1/ptm/m/n/10.95 The dataset con-sists of nat-u-ral im-ages taken
+Overfull \hbox (20.5243pt too wide) in paragraph at lines 43--50
+\OT1/ptm/m/n/10 We let $\OML/cmm/m/it/10 x[] \OT1/cmr/m/n/10 = 1$\OT1/ptm/m/n/1
+0 , so that $\OML/cmm/m/it/10 x \OMS/cmsy/m/n/10 2 <[]$ \OT1/ptm/m/n/10 and $\O
+ML/cmm/m/it/10 ^^R \OMS/cmsy/m/n/10 2 <[]$\OT1/ptm/m/n/10 , and $\OML/cmm/m/it/
+10 ^^R[]$ \OT1/ptm/m/n/10 is the in-ter-cept term. We have a train-ing set $\OM
+S/cmsy/m/n/10 f\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x[]; y[]\OT1/cmr/m/n/10 )\OML/
+cmm/m/it/10 ; [] ; \OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x[]; y[]\OT1/cmr/m/n/10 )\
+OMS/cmsy/m/n/10 g$
  []
 
+[1
 
-Overfull \hbox (27.43298pt too wide) detected at line 68
-\OML/cmm/m/it/10.95 J \OT1/cmr/m/n/10.95 = [] [][\OMS/cmsy/m/n/10.95 ^^@\OML/cm
-m/m/it/10.95 y[] []\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 h^^R\OT1/cmr/m/n/10.
-95 (\OML/cmm/m/it/10.95 x[]\OT1/cmr/m/n/10.95 )) \OMS/cmsy/m/n/10.95 ^^@ \OT1/c
-mr/m/n/10.95 (1 \OMS/cmsy/m/n/10.95 ^^@ \OML/cmm/m/it/10.95 y[]\OT1/cmr/m/n/10.
-95 ) [](1 \OMS/cmsy/m/n/10.95 ^^@ \OML/cmm/m/it/10.95 h^^R\OT1/cmr/m/n/10.95 (\
-OML/cmm/m/it/10.95 x[]\OT1/cmr/m/n/10.95 ))]
- []
-
-[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
-
-
-]
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./pic.jpg>]
 <1.png, id=17, 803.0pt x 566.115pt>
 File: 1.png Graphic file (type png)
  <use 1.png>
-Package pdftex.def Info: 1.png used on input line 94.
+Package pdftex.def Info: 1.png used on input line 67.
 (pdftex.def)             Requested size: 227.62204pt x 160.47198pt.
-
-Overfull \hbox (22.36417pt too wide) detected at line 111
-\OML/cmm/m/it/10.95 h[]\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 x\OT1/cmr/m/n/10
-.95 ) = \OML/cmm/m/it/10.95 a[] \OT1/cmr/m/n/10.95 = \OML/cmm/m/it/10.95 f\OT1/
-cmr/m/n/10.95 (\OML/cmm/m/it/10.95 W[]a[] \OT1/cmr/m/n/10.95 + \OML/cmm/m/it/10
-.95 W[]a[] \OT1/cmr/m/n/10.95 + \OML/cmm/m/it/10.95 W[]a[] \OT1/cmr/m/n/10.95 +
- \OML/cmm/m/it/10.95 b[]\OT1/cmr/m/n/10.95 )
- []
 
 <2.png, id=18, 540.0175pt x 601.24625pt>
 File: 2.png Graphic file (type png)
  <use 2.png>
-Package pdftex.def Info: 2.png used on input line 120.
+Package pdftex.def Info: 2.png used on input line 93.
 (pdftex.def)             Requested size: 227.62204pt x 253.42995pt.
  [2 <./1.png (PNG copy)>]
-Underfull \vbox (badness 1102) has occurred while \output is active []
+<6.png, id=22, 602.25pt x 602.25pt>
+File: 6.png Graphic file (type png)
+ <use 6.png>
+Package pdftex.def Info: 6.png used on input line 126.
+(pdftex.def)             Requested size: 227.62204pt x 227.62596pt.
 
+<7.png, id=23, 274.626pt x 288.5982pt>
+File: 7.png Graphic file (type png)
+ <use 7.png>
+Package pdftex.def Info: 7.png used on input line 132.
+(pdftex.def)             Requested size: 227.62204pt x 239.20175pt.
  [3 <./2.png (PNG copy)>]
-No file projectReport.bbl.
-[4
-
-] (./projectReport.aux) ) 
+[4 <./6.png (PNG copy)> <./7.png>]
+Missing character: There is no Â in font ptmr7t!
+Missing character: There is no ´ in font ptmr7t!
+Missing character: There is no Â in font ptmr7t!
+Missing character: There is no ´ in font ptmr7t!
+ [5] (./projectReport.aux) ) 
 Here is how much of TeX's memory you used:
- 2742 strings out of 494952
- 36217 string characters out of 6179606
- 97678 words of memory out of 5000000
- 5886 multiletter control sequences out of 15000+600000
- 28946 words of font info for 71 fonts, out of 8000000 for 9000
+ 2699 strings out of 494952
+ 35516 string characters out of 6179606
+ 95668 words of memory out of 5000000
+ 5853 multiletter control sequences out of 15000+600000
+ 20901 words of font info for 50 fonts, out of 8000000 for 9000
  56 hyphenation exceptions out of 8191
- 38i,9n,26p,864b,314s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r
-.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><
-/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/s
-hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/te
-xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/cou
-rier/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb
-></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/te
-xlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on projectReport.pdf (4 pages, 460541 bytes).
+ 38i,8n,26p,1149b,234s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base
+/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pf
+b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/
+times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pf
+b></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on projectReport.pdf (5 pages, 701967 bytes).
 PDF statistics:
- 68 PDF objects out of 1000 (max. 8388607)
+ 72 PDF objects out of 1000 (max. 8388607)
  47 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 11 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 26 words of extra memory for PDF output out of 10000 (max. 10000000)
 

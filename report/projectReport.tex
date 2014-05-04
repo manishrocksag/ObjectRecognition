@@ -1,4 +1,4 @@
-\documentclass[11pt,twocolumn,letterpaper]{article}
+\documentclass[18pt,letterpaper]{article}
 \usepackage{cvpr}
 \usepackage{times}
 \usepackage{epsfig}
@@ -21,44 +21,17 @@
 
 
 \begin{document}
-\title{\LARGE Object Recognition}
-
-\author{Hemanta De(Mentor)\\
-Heritage Institute of Technology\\
-{\tt\small secondauthor@i2.org}
-% For a paper whose authors are all at the same institution,
-% omit the following lines up until the closing ``}''.
-% Additional authors and addresses can be added with ``\and'',
-% just like the second author.
-% To save space, use either the email address or home page, not both
-\and
-Manish Agarwal\\
-Heritage Institute of Technology\\
-{\tt\small manishrocksag@gmail.com}
-\and
-Pradipta Burman\\
-Heritage Institute of Technology\\
-{\tt\small secondauthor@i2.org}
-\and
-Sourav Chaterjee\\
-Heritage Institute of Technology\\
-{\tt\small secondauthor@i2.org}
-\and
-Joy Dasgupta\\
-Heritage Institute of Technology\\
-{\tt\small secondauthor@i2.org}
-}
-\maketitle
-\thispagestyle{empty}
 
 \begin{abstract}
-The objective is to gain insights on Deep Learning and explore methods which can learn good representation of features without handcoding them.Using this features we try and  build a deep network which can be used for classifying images.
+In this report we train and test a set of classifiers like logistic regression and neural net with backpropagation for object recognition.After exploring these classifiers we look at deep learning techniques like Sparse Autoencoders which is a unsupervised method to learn good representation of features from images.We use the features extracted from sparse autoencoder to build a deep network for Object Recognition.
 \end{abstract}
 \section{Introduction}
-The task is to predict the labels of images from the given categories of buildings,cars,
-flowers,faces,shoes. We first train the dataset with differnt classifiers like Neural Networks with backpropagation and Logistic Regression on feature vectors which are already extracted from our data set using some standard algorithms.We than explore unsupervised methods like Sparse Autoencoders and Linear Decoders which can learn good representation of features.We finally build a Deep Network using approaches we learned above which can be used as a classifier for classifying images.
+An object recognition system finds object in the real world from an images of the world,using object classes which are known a priori.In this report we will discuss the different types of classification algorithms that can be used for building a model for object recognition and analyze their classification accuracy on the test set.The task is to predict the labels of images from the given categories of digits which ranges from 0-9.We first train the dataset with differnt classifiers like Neural Networks with backpropagation and Logistic Regression on the raw image pixels.We than explore unsupervised methods like Sparse Autoencoders which can learn good representation of features from the image pixels.We finally build a Deep Network using approaches we learned above for Object Recognition.
 \section{The Dataset}
-The dataset consists of natural images taken from camera.The classes for this images are Buildings,Cars,Faces,Flowers and Shoes.Each image is 240 * 240 RGB image.We have 500 images for the training set and 1000 images for the test set.We also have a set of 3000 images whose labels are unknown to us.
+The data for the task is taken from the MNIST (Modified National Institute of Standards and Technology) dataset.The MNIST database contains 42,000 digits ranging from 0 to 9 for training the digit recognition system, and another 28,000 digits as test data. Each digit is normalized and centered in a gray-level image with size 28 28, or with 784 pixel in total as the features. 
+\begin{figure}[ht!]
+\includegraphics[width=8cm]{pic.jpg}
+\end{figure}
 \section{Training}
 We describe here all the training approaches we have taken to train the classifier for multiclass object detection.We also give the classification accuracy of our training algorithms on the test test.
 \subsection{Logistic Regression}
@@ -145,34 +118,74 @@ penalizes $\textstyle \hat\rho_j$ deviating significantly from $\textstyle \rho$
 $$
 \sum_{j=1}^{s_2} \rho \log \frac{\rho}{\hat\rho_j} + (1-\rho) \log \frac{1-\rho}{1-\hat\rho_j}.
 $$
-\subsection{Linear Decoder}
-In the sparse autoencoder, we had 3 layers of neurons: an input layer, a hidden layer and an output layer.We describe a modified version of the autoencoder in which some of the neurons use a different activation function.This will result in a model that is sometimes simpler to apply, and can also be more robust to variations in the parameters. 
-Each neuron (in the output layer) computed the following:
-$$
-z^{(3)} = W^{(2)} a^{(2)} + b^{(2)} \\
-a^{(3)} = f(z^{(3)})
-$$
-where $a^{(3)}$ is the output. In the autoencoder, $a^{(3)}$ is the approximate reconstruction of the input $x = a^{(1)}$.
-Since we used a sigmoid activation function for $f(z^{(3)})$, we needed to constrain or scale the inputs to be in the range $[0,1]$, 
-since the sigmoid function outputs numbers in the range $[0,1]$.This condition can sometimes be awkward to satisfy. For example, if one uses PCA whitening, the input is no longer constrained to $[0,1]$ and it's not clear what the best way is to scale the data to ensure it fits into the constrained range.
-The fix for this problem is to set $a^{(3)} = z^{(3)}$.Formally, this is achieved by having the output nodes use an activation function that's the identity function $f(z) = z$, so that $a^{(3)} = f(z^{(3)}) = z^{(3)}$. 
-This particular activation function $f(\cdot)$ is called the linear activation function However in the hidden layer of the network, we still use a sigmoid (or tanh) activation function.
-It is only in the output layer that we use the linear activation function. 
-We use linear decoder to obtain compressed representation of features from the $8 * 8$ randomly chosen sample from a RGB image whose label is unknown to us.
- 
 
 \subsection{Deep Networks for Classification}
+Using all the techniques we learnt above we now build a deep network for object classification.We will use standard MNSIT handwritten digits for our task.First we will take 10,000 examples from the data set whose label is unknown to us.We will feed this data to the sparse autoencoder.The sparse autoencoder try to learn weights to represent the image in a more compressed form.If we visualize these learned weights it looks like detecting edges at different positions in the image.
+
+\begin{figure}[ht!]
+\includegraphics[width=8cm]{6.png}
+\end{figure}
+
+Each square in the figure above shows the input image that maximally actives one of the hidden units. We see that the different hidden units have learned to detect edges at different positions and orientations in the image.We save this learned weights to get good features from images whose labels are already known to us.
+We have a labeled training set that we can replace the original features with features computed by the sparse autoencoder.We do this by multiplying the weights we get from sparse autoencoder with the training set.This gives us a new training set.Finally, we train a logistic classifier to map from the features $a^{(i)}$ we laerned above to the classification label $y^{(i)}$.The overall architecture looks like below:  
+\begin{figure}[ht!]
+\includegraphics[width=8cm]{7.png}
+\end{figure}
+
+Here we constructed a 3-layer neural network comprising an input, hidden and output layer. While fairly effective for MNIST,this 3-layer model is a fairly shallow network which means that the features are computed using only one layer of computation.
+We build a deep neural networks in which we have multiple hidden layers.This will allow us to compute much more complex features of the input because each hidden layer computes a non-linear transformation of the previous layer,so a deep network can have significantly greater representational power than a shallow one.One method that has been used is the greedy layer-wise training method.The idea is to train the layers of the network one at a time, so that we first train a network with 1 hidden layer, and only after that is done, train a network with 2 hidden layers, and so on. At each step, we take the old network with $k\mathbin{-}1$ hidden layers, and add an additional k-th hidden layer.So here we use a 3 layer deep network.The weights that we obtain from running sparse autoencoder are again fed into a new sparse autoencoder which can learn a more compressed represntation of the learned weights.The weights from training the layers individually are then used to initialize the weights in the final deep network and only then is the entire architecture is trained together to optimize the labeled training set error.
+
+We observe the overall performance improves significantly using deep networks.
+
+
 \subsection{Pre-Processing of Data}
 Data preprocessing plays a very important in many deep learning algorithms. In practice,we have seen our performance improved between 2-7 perecent after our data has been pre-processed before using it to train a classifier.We used simple rescaling,in which our goal was to rescale the data along each data dimension (possibly independently) so that the final data vectors lie in the range $[0, 1]$ or  $[-1, 1]$.We also tried feature standardization which refers to setting each dimension of the data to have zero-mean and unit-variance. This is the most common method for normalization. We achieved this by first computing the mean of each dimension (across the dataset) and subtracts this from each dimension. Next,each dimension is divided by its standard deviation.Out of the two approaches we found z-score to perform better on RGB images.
 \subsection{PCA/ZCA}
+PCA(Principal Component Analysis) will allow us to approximate the input with a much lower dimensional one, while incurring very little error.
+Whitening is a preprocessing step which removes redundancy in the input, by causing adjacent pixels to become less correlated.
+Since grey-scale images have the stationarity property, we usually first remove the mean-component from each data example separately.After this step, PCA/ZCA whitening is often employed with a value of epsilon set large enough to low-pass filter the data.
 
 \subsection{Results}
-The code\footnote{http://github.com/manishrocksag/ObjectRecognition}
-for the implementation has been open sourced and can be forked. 
-\subsection{References}
+
+\begin{tabular}{|c|c|}
+\hline 
+Training Method & Classification Accuracy \\ 
+\hline 
+Logistic Regression & 78\% \\ 
+\hline 
+Neural Net & 88\% \\ 
+\hline 
+Deep Learning & 92\% \\ 
+\hline 
+\end{tabular} 
+The code\footnote{https://github.com/manishrocksag/ObjectRecognition}
+for the all of the implementation can be found in the online repository. 
+
+\begin{thebibliography}{9}
+
+\bibitem{1}
+Rajat Raina,Alexis Battle,Honglak Lee,Benjamin Packer,Andrew Y. Ng
+  \emph{Self-taught Learning: Transfer Learning from Unlabeled Data}. Computer Science Department, Stanford University, CA 94305 USA
+
+\bibitem{2}
+Rajat Raina,Anand Madhavan,Andrew Y. Ng 
+  \emph{Large-scale Deep Unsupervised Learning using Graphics Processors
+}.
+Computer Science Department, Stanford University, CA 94305 USA
+  
+\bibitem{3}
+  Yoshua Bengio
+  \emph{Learning Deep Architectures for AI
+}.
+Dept. IRO, Universit´e de Montr´eal
+C.P. 6128, Montreal, Qc, H3C 3J7, Canada
+
+\bibitem{4}
+  Memisevic,Hinton G. E.
+  \emph{Unsupervised learning of image transformations.}.
+Computer Vision and Pattern Recognition (CVPR-07)
 
 
-\bibliographystyle{ieee}
-\bibliography{test}
+\end{thebibliography}
 
 \end{document}
